@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass sass:css --watch"
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
   },
   "author": "Rocio Ricciardiello",
   "license": "ISC",
