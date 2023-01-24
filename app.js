@@ -1,0 +1,11 @@
+import { strictEqual } from "./strictEqual";
+const posNum = 1;
+const neutralNumber = 0;
+const noNumber = NaN;
+const negNum = -1;
+const yes = true;
+const No = false;
+const abc = "water";
+const cba = "oil";
+console.log(abc === cba);
+console.log(strictEqual(abc, cba));
