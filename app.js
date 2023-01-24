@@ -12,7 +12,6 @@ const cba = "oil";
 
 const print = (a, b) => {
   console.log(`Checking ${a} with ${b}`);
-  console.log(a === b);
   console.log(strictEqual(a, b));
 };
 
