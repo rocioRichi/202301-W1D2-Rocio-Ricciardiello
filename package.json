@@ -1,0 +1,16 @@
+{
+  "name": "challegew2d2",
+  "version": "1.0.0",
+  "description": "Rocío Ricciardiello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass:css --watch"
+  },
+  "author": "Rocio Ricciardiello",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "sass": "^1.57.1"
+  }
+}
