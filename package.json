@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Rocío Ricciardiello",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass sass:css --watch"
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
   },
   "author": "Rocio Ricciardiello",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-xo": "^0.43.1",
     "husky": "^8.0.3",
     "sass": "^1.57.1"
   }
