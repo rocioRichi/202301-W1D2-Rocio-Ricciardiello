@@ -7,7 +7,7 @@ const noNumber = NaN;
 const negNum = -1;
 const yes = true;
 const No = false;
-const abc = "water";
+const abc = "coke";
 const cba = "oil";
 
 const print = (a, b) => {
